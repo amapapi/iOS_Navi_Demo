@@ -1,0 +1,18 @@
+//
+//  GPSEmulatorViewController.h
+//  AMapNaviKit
+//
+//  Created by 刘博 on 16/3/14.
+//  Copyright © 2016年 AutoNavi. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <AMapNaviKit/AMapNaviKit.h>
+
+@interface GPSEmulatorViewController : UIViewController
+
+@property (nonatomic, strong) AMapNaviDriveManager *driveManager;
+
+@property (nonatomic, strong) AMapNaviDriveView *driveView;
+
+@end
