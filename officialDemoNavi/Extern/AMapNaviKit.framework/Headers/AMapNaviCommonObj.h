@@ -407,7 +407,12 @@ FOUNDATION_EXTERN AMapNaviDrivingStrategy ConvertDrivingPreferenceToDrivingStrat
  * 53：注意危险
  * 58：隧道
  * 59：渡口
+ * 92:闯红灯
+ * 93:应急车道
+ * 94:非机动车道
  * 100：不绑定电子眼高发地
+ * 101:车道违章
+ * 102:超速违章
  */
 
 ///  道路交通设施类
